@@ -8,3 +8,8 @@ html {
 @tailwind components;
 @tailwind utilities;
 
+@layer components {
+    .calc-btn {
+        @apply grid place-items-center text-2xl bg-gray border-r-[1px] border-b-[1px] border-border-color-lighter;
+    }
+}
