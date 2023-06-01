@@ -12,4 +12,16 @@ html {
     .calc-btn {
         @apply grid place-items-center text-2xl bg-gray border-r-[1px] border-b-[1px] border-border-color-lighter;
     }
+
+    .calc-top-btn {
+        @apply bg-gray hover:bg-gray-darker
+    }
+
+    .calc-main-btn {
+        @apply bg-white hover:bg-white-darker
+    }
+
+    .calc-left-btn {
+        @apply bg-accent-lighter hover:bg-accent-lighter-hover
+    }
 }

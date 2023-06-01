@@ -6,6 +6,7 @@ module.exports = {
     colors: {
       accent: '#7c94f4',
       'accent-lighter': 'rgb(177,190,238)',
+      'accent-lighter-hover' : 'rgb(167,179,224)',
       'hover-accent' : '#5676f6',
       'accent-transparent': 'rgba(100, 128, 242, .3)',
        background: '#e7eeee',
@@ -17,7 +18,9 @@ module.exports = {
       'secondary-button': '#f3f6f7',
        red: '#f00',
        gray: '#ccc',
+       'gray-darker' : '#bbbaba',
        white: '#fff',
+       'white-darker' : '#efefef',
        black: '#222',
        transparent: 'transparent'
     },
