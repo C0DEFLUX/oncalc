@@ -8,6 +8,7 @@ import {
     Login,
     Register,
     Calc,
+    Protected
 } from './components';
 
 import { BrowserRouter as Router, Route, Routes } from "react-router-dom";
@@ -20,7 +21,8 @@ root.render(
   <Routes>
       <Route path="/" element={ <Login />} />
       <Route path="/register" element={ <Register />} />
-      <Route path="/calc" element={ <Calc />} />
+
+      <Route path="/calc" element={ <Protected Cmp={Calc} />} />
 
   </Routes>
 </Router>

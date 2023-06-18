@@ -17,6 +17,7 @@ module.exports = {
       'primary-button': '#6480f2',
       'secondary-button': '#f3f6f7',
        red: '#f00',
+        'error-red': '#e3242b',
        gray: '#ccc',
        'gray-darker' : '#bbbaba',
        white: '#fff',
